@@ -1,0 +1,168 @@
+
+.header {
+   text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu ul {
+    background-color: rgb(225, 15, 15);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.menu {
+    position: relative;
+    bottom: 50px; /*https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Positioning*/
+}
+
+.all {
+    background-color: black;
+}
+
+.menu li {
+    padding: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.menu li:hover {
+    color: black;
+}
+
+.Shots {
+    background-color: black;
+    text-align: center;
+}
+
+.zoom-image {
+    width: 65%; /* chat GPT */
+    transition: transform 0.3s ease; /* chat GPT */
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.2); /* chat GPT */
+  }
+  
+
+
+.texte-musique-1 {
+    margin: auto;
+    width: 70%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    padding: 30px;
+    border-radius: 2.5%;
+    text-align: justify;
+    gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+
+
+
+.texte-musique-2 {
+    margin: auto;
+    width: 70%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    padding: 30px;
+    border-radius: 2.5%;
+    text-align: justify;
+    gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+
+.fond-image {
+    width: 100%;
+    height: 1000px;
+    background-image: url(LogoMM.jpg);
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.animation {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    border-radius: 2.5%;
+}
+
+.concept-galerie {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images {
+    display: flex;
+    gap: 10px; 
+}
+
+.images img {
+    width: 70%;
+    height: 400px; 
+    object-fit: cover;
+} 
+
+.titre {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    background-color: rgb(225, 15, 15);
+    border-radius: 2.5%;
+    margin: auto;
+}
+
+.titre a {
+    color: black;
+    text-decoration: none;
+}
+
+.presentation1 {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: auto;
+    padding: 30px;
+    border-radius: 2.5%;
+    line-height: 1.5;
+    width: 74%;
+    text-align: justify;
+}
+
+.presentation2 {
+    text-align: justify;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: auto;
+    padding: 30px;
+    border-radius: 2.5%;
+    line-height: 1.5;
+    width: 74%;
+}
